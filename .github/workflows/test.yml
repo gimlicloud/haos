@@ -1,0 +1,12 @@
+  - name: Home Assistant builder
+  # You may pin to the exact commit or the version.
+  # uses: home-assistant/builder@7db34eb4805aad773732eada2a0532749b4a20c1
+  uses: home-assistant/builder@2025.02.0
+  with:
+    # Arguments passed to the builder
+    args: # default is --help
+    # Pull the latest version of builder (set to `false` for testing)
+    pull: # optional, default is true
+    # Define the builder image archictecture (default: amd64)
+    image: # optional, default is amd64
+          
